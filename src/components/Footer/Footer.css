@@ -1,0 +1,20 @@
+footer {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  color: #79797B;
+  margin-top: 50px;
+}
+
+.socialMedia img {
+  height: 20px;
+  margin: 20px 20px 10px 20px;
+}
+
+.resume button {
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #2c98f0;
+  height: 35px;
+  color: #F2F3F7;
+}
