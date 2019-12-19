@@ -1,5 +1,6 @@
 import React from 'react'
 import { Gallery, GalleryImage } from 'react-gesture-gallery'
+import './Carousel.css'
 
 const Carousel= () => {
     const INITIAL_INDEX = 0
@@ -21,18 +22,29 @@ const Carousel= () => {
     }) 
 
     return(
-      <Gallery 
-        index = {index}
-        onRequestChange = {i => {
-          setIndex(i)
-        }}
-      >
+      <div className="carouselContainer">
+        <div className="carouselImages">
+        <Gallery 
+          index = {index}
+          onRequestChange = {i => {
+            setIndex(i)
+          }}
+        >
         {images.map(image => (
-          <div className="carouselImages">
-            <GalleryImage objectFit="contain" src={image} />
-          </div>
+            <GalleryImage objectFit="contain" src={image} key={index} />
         ))}
-      </Gallery>
+        </Gallery>
+      </div>
+        <div className="carouselInfo">
+          Hi!
+          <br />
+          I'm Jun,
+          <br />
+          a Web Developer.
+        </div>
+      </div>
+
+
     )
   }
 

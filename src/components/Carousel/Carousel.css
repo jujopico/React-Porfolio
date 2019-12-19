@@ -1,4 +1,18 @@
-.GestureGallery {
-  width:950px !important;
-  margin: 0;
+.carouselImages {
+  margin: 70px 80px 70px 0 !important;
+  z-index: 1;
+  position: absolute;
+  top:0;
+}
+
+.carouselInfo {
+  font-family: 'Girassol', cursive;
+  font-size: 50px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  margin: 200px 0 0 80px;
+  color:papayawhip;
+  
 }
