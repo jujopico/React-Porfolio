@@ -20,7 +20,7 @@ function Carousel() {
         }
       }, 4000)
       return() => clearInterval(interval)
-    }, [index]) 
+    }) 
 
     return(
       <Gallery
