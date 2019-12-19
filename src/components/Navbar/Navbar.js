@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { withRouter } from "react-router";
 import './Navbar.css'
 import Selfie from '../Selfie/Selfie'

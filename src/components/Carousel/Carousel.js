@@ -1,10 +1,8 @@
 import React from 'react'
 import { Gallery, GalleryImage } from 'react-gesture-gallery'
 
-const INITIAL_INDEX = 0
-
-function Carousel() {
-
+const Carousel= () => {
+    const INITIAL_INDEX = 0
     const [index, setIndex] = React.useState(INITIAL_INDEX)
     const images = [
       "https://66.media.tumblr.com/ec7bbd21ed673f093d64482609e0dc39/b046c728e84f4d9f-8a/s1280x1920/a6ab15cfae38c11c22f46990471cc77b6c9c896f.jpg", 
@@ -23,17 +21,18 @@ function Carousel() {
     }) 
 
     return(
-      <Gallery
+      <Gallery 
         index = {index}
         onRequestChange = {i => {
           setIndex(i)
         }}
       >
         {images.map(image => (
-          <GalleryImage objectFit="contain" src={image} />
+          <div className="carouselImages">
+            <GalleryImage objectFit="contain" src={image} />
+          </div>
         ))}
       </Gallery>
-
     )
   }
 

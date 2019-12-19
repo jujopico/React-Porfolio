@@ -1,9 +1,9 @@
 .navbar {
   display: block;
-  width: 330px;
+  width: 400px;
   height: 100vh;
   background-color: #F2F3F7;
-  z-index: 3;
+  z-index: 999;
 }
 
 nav a {
