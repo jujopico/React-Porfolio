@@ -1,17 +1,17 @@
 import React from 'react'
 import { Gallery, GalleryImage } from 'react-gesture-gallery'
 import './Carousel.css'
-// import bkg1 from '../../assets/images/bkg1.jpg'
-// import bkg2 from '../../assets/images/bkg2.jpg'
+import bkg1 from '../../assets/images/bkg1.jpg'
+import bkg2 from '../../assets/images/bkg2.jpg'
 
 const Carousel= () => {
     const INITIAL_INDEX = 0
     const [index, setIndex] = React.useState(INITIAL_INDEX)
-    // const images = [ `${ bkg1}`, `${bkg2}` ] 
-    const images = [
-      "https://66.media.tumblr.com/ec7bbd21ed673f093d64482609e0dc39/b046c728e84f4d9f-8a/s1280x1920/a6ab15cfae38c11c22f46990471cc77b6c9c896f.jpg",
-      "https://66.media.tumblr.com/04c973478f69bb3bc7940e427693b2cb/b046c728e84f4d9f-b0/s1280x1920/4f6b8f991f9ecf206d557b638511f070f90789f4.jpg"
-    ]
+    const images = [ `${ bkg1}`, `${bkg2}` ] 
+    // const images = [
+    //   "https://66.media.tumblr.com/ec7bbd21ed673f093d64482609e0dc39/b046c728e84f4d9f-8a/s1280x1920/a6ab15cfae38c11c22f46990471cc77b6c9c896f.jpg",
+    //   "https://66.media.tumblr.com/04c973478f69bb3bc7940e427693b2cb/b046c728e84f4d9f-b0/s1280x1920/4f6b8f991f9ecf206d557b638511f070f90789f4.jpg"
+    // ]
     const wordsJun = " Jun"
     const splitJun = wordsJun.split("")
     const wordsDeveloper = " Developer"
