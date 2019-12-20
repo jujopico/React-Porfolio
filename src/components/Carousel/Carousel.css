@@ -14,5 +14,70 @@
   background-color: transparent;
   margin: 200px 0 0 80px;
   color:papayawhip;
-  
+  display: block;
+}
+
+.junContainer, .developerContainer, .codesContainer, .toysContainer {
+  display: flex;
+  justify-content: left;
+}
+
+.jun, .developer, .codes, .toys {
+  color: ivory;
+}
+
+@keyframes jun {
+  0% { transform: rotate(0deg), scale(3); }
+ 25% { transform: rotate(15deg); }
+ 50% { transform: rotate(-15deg); }
+ 75% { transform: rotate(15deg); }
+100% { transform: rotate(0deg); }
+}
+
+.jun:hover, .jun:focus, .jun:active {
+  transform: scale(1.8);
+  transition: 0.3s;
+  animation: jun 1s infinite;
+}
+
+@keyframes developer {
+  0% { transform: rotate(0deg), scale(3); }
+ 25% { transform: rotate(15deg); }
+ 50% { transform: rotate(-15deg); }
+ 75% { transform: rotate(15deg); }
+100% { transform: rotate(0deg); }
+}
+
+.developer:hover, .developer:focus, .developer:active {
+  transform: scale(1.8);
+  transition: 0.3s;
+  animation: developer 1s infinite;
+}
+
+@keyframes codes {
+  0% { transform: rotate(0deg), scale(3); }
+ 25% { transform: rotate(15deg); }
+ 50% { transform: rotate(-15deg); }
+ 75% { transform: rotate(15deg); }
+100% { transform: rotate(0deg); }
+}
+
+.codes:hover, .codes:focus, .codes:active {
+  transform: scale(1.8);
+  transition: 0.3s;
+  animation: codes 1s infinite;
+}
+
+@keyframes toys {
+  0% { transform: rotate(0deg), scale(3); }
+ 25% { transform: rotate(15deg); }
+ 50% { transform: rotate(-15deg); }
+ 75% { transform: rotate(15deg); }
+100% { transform: rotate(0deg); }
+}
+
+.toys:hover, .toys:focus, .toys:active {
+  transform: scale(1.8);
+  transition: 0.3s;
+  animation: toys 1s infinite;
 }
