@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.css'
 import githubLogo from '../../assets/images/githubLogo.png'
 import linkedinIcon from '../../assets/images/linkedinIcon.png'
-import JunSuResume from '../../assets/pdf/JunSuResume.pdf'
 
 const Footer = () => (
   <footer>
@@ -17,7 +16,7 @@ const Footer = () => (
         </a>
       </div>
       <div className="resume">
-        <a target="blank" download href={JunSuResume}>
+        <a target="blank" download href="../../assets/pdf/JunSuResume.pdf">
           <button>Download Resume</button>
         </a>
       </div>
