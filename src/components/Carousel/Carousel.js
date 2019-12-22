@@ -1,13 +1,10 @@
 import React from 'react'
 import { Gallery, GalleryImage } from 'react-gesture-gallery'
 import './Carousel.css'
-// import bkg1 from '../../assets/images/bkg1.jpg'
-// import bkg2 from '../../assets/images/bkg2.jpg'
 
 const Carousel= () => {
     const INITIAL_INDEX = 0
     const [index, setIndex] = React.useState(INITIAL_INDEX)
-    // const images = [ `${ bkg1}`, `${bkg2}` ] 
     const images = [
       "https://wynstore-assets.herokuapp.com/images/bkg1.jpg",
       "https://wynstore-assets.herokuapp.com/images/bkg2.jpg"
