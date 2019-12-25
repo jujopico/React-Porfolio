@@ -7,3 +7,7 @@ body {
 .homeContainer {
   display:flex;
 }
+
+.projectsContainer {
+  margin-top: 785px;
+}
