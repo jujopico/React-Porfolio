@@ -14,8 +14,6 @@ class App extends React.Component{
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/projects" />
-            <Route path="/contact" />
           </Switch>
         </BrowserRouter>
       </div>
