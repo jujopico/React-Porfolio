@@ -42,7 +42,7 @@ const Carousel= () => {
             <GalleryImage objectFit="contain" src={image} key={index} />
         ))}
         </Gallery>
-      </div>
+        </div>
         <div className="carouselInfo">
           <div>
             Hi!
