@@ -1,0 +1,56 @@
+.projectsListContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #edf0f2;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.projectsImg {
+  width: 455px;
+}
+
+.videojuegoContainer img {
+  margin-right: 50px;
+}
+
+.githubLinks {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  background:rgb(23,52,97);
+  background:rgba(23,52,97,0.7);
+  width: 445px;
+  transition: .5s ease;
+  color: #F2F3F7;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 132px;
+  text-align: center;
+  opacity:0;
+}
+
+.videojuegoContainer:hover .githubLinks {
+  opacity: 1;
+}
+
+.wynstoreContainer:hover .githubLinks {
+  opacity: 1;
+}
+
+.projectsTitle {
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.projectsDescription {
+  width: 455px;
+  margin-top: 15px;
+}
+
+.highlightsInDesp {
+  font-weight: 600;
+}
