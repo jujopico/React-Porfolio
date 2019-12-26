@@ -5,7 +5,11 @@ body {
 }
 
 .homeContainer {
-  display:flex;
+  display: flex;
+}
+
+.mainContainer {
+  margin-left: 400px;
 }
 
 .projectsContainer {
