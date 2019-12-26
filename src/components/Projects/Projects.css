@@ -1,5 +1,5 @@
 .projectsListContainer {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   border-bottom: 1px solid #edf0f2;
   font-family: 'Quicksand', sans-serif;
