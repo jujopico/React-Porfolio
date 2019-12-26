@@ -3,6 +3,9 @@ import './Contact.css'
 
 const Contact = () => (
   <div className="contactContainer">
+    <div className="contactPageTtitle">
+      CONTACT
+    </div>
     <div className="contactTitle">
       Thank you for stopping by. I will get back to you ASAP! 
     </div>

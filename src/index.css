@@ -8,7 +8,7 @@ body {
   display: flex;
 }
 
-.homePageContainer, .projectsPageContainer {
+.homePageContainer, .projectsPageContainer, .ContactPageContainer{
   margin-left: 400px;
 }
 

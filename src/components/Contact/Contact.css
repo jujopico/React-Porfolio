@@ -4,19 +4,26 @@
   flex: 1;
 }
 
+.contactPageTtitle {
+  font-family: 'Girassol', cursive;
+  font-size: 35px;
+  margin: 70px 0;
+}
+
 .contactTitle {
   color:rgb(74,97,123);
   font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
 }
 
 .contactInfo {
-  margin-top: 8px;
+  margin-top: 15px;
 }
 
 .contactInfo input {
   font-family: 'Quicksand', sans-serif;
   color:rgb(74,97,123);
-  margin: 8px 0;
+  margin: 15px 0;
   line-height: 2;
   padding: 4px 8px;
   border-radius: 5px;
@@ -35,7 +42,7 @@ input:focus {
 .contactText textarea {
   font-family: 'Quicksand', sans-serif;
   color:rgb(74,97,123);
-  margin-top: 8px;
+  margin-top: 15px;
   padding: 4px 8px;
   border-radius: 5px;
   resize: none;
@@ -60,5 +67,5 @@ input:focus {
   height: 35px;
   color: #F2F3F7;
   font-family: 'Quicksand', sans-serif;
-  margin: 8px 0 50px 0;
+  margin: 15px 0 50px 0;
 }
