@@ -1,29 +1,38 @@
+* {
+  box-sizing: border-box
+}
+
 .projectsContainer {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 0 auto 0px;
   margin: 70px 0 70px 0;
   padding: 0;
+}
+
+.heroImg {
+  margin-top: 50px;
+  position: relative;
 }
 
 .projectsPageTitle {
   font-family: 'Girassol', cursive;
   font-size: 35px;
-  margin-bottom: 70px;
 }
 
 .projectsListContainer {
-  display: flex;
+  display: grid;
+  flex-wrap: wrap;
   grid-template-columns: 1fr 1fr;
   border-bottom: 1px solid #edf0f2;
   font-family: 'Quicksand', sans-serif;
-  position: relative;
-  width: 50%;
-  margin-right: 80px;
+  margin-right: 80px; 
+  margin-top: 70px;
 }
 
 .projectsImg {
   width: 466px;
   height: 100hv;
+  display: flex;
 }
 
 .videojuegoContainer img {
@@ -34,14 +43,12 @@
   text-decoration: none;
   position: absolute;
   bottom: 0;
-  background:rgb(74,97,123);
   background:rgba(74,97,123,0.8);
-  width: 456px;
+  width: 466px;
   transition: .5s ease;
   color: #F2F3F7;
   font-size: 20px;
   padding: 5px;
-  margin-bottom: 150px;
   text-align: center;
   opacity:0;
 }
@@ -54,8 +61,12 @@
   opacity: 1;
 }
 
+.portfolioContainer:hover .githubLinks {
+  opacity: 1;
+}
+
 .projectsTitle {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 30px;
   font-weight: 600;
   color:rgb(45,59,75)
@@ -63,7 +74,7 @@
 
 .projectsDescription {
   width: 455px;
-  margin-top: 20px;
+  margin-top: 15px;
   color: #7992AE;
   font-size: 18px;
 }

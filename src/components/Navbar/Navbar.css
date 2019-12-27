@@ -1,9 +1,11 @@
 .navbar {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 400px;
   height: 100vh;
   z-index: 999;
   position: fixed;
+  background-color: #F2F3F7;
 }
 
 nav ul {

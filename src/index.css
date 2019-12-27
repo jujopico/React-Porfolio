@@ -2,6 +2,7 @@ body {
   margin:0;
   padding:0;
   background-color: #F2F3F7;
+  cursor: pointer;
 }
 
 .homeContainer {
@@ -10,8 +11,4 @@ body {
 
 .homePageContainer, .projectsPageContainer, .ContactPageContainer{
   margin-left: 400px;
-}
-
-.projectsContainer {
-  margin-top: 785px;
 }

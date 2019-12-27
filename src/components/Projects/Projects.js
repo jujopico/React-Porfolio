@@ -1,6 +1,7 @@
 import React from 'react'
 import videojuego from '../../assets/images/videojuego.png'
 import wynstore from '../../assets/images/wynstore.png'
+import portfolio from '../../assets/images/portfolio.png'
 import './Projects.css'
 
 class Projects extends React.Component {
@@ -12,21 +13,21 @@ class Projects extends React.Component {
         </div>
         <div className="projectsListContainer">
           <div className="videojuegoContainer">
-            <img src={ videojuego } alt="videojueGO!" className="projectsImg" />
-            <div className="projectsOverlay">
+            <div className="heroImg">
+              <img src={ videojuego } alt="videojueGO!" className="projectsImg" />
               <a href="https://github.com/jujopico/videojueGO" className="githubLinks">Check on Github</a>
             </div>
             <div className="projectsTitle">
               videojueGO!
             </div>
             <div className="projectsDescription">
-              A video game search engine based on <span className="highlightsInDesp">RAWG games database and React.js</span>, which allows users to look up detailed game information.
+              A video game search engine based on RAWG games database<span className="highlightsInDesp">API</span>, <span className="highlightsInDesp">Axios</span> and <span className="highlightsInDesp">React.js</span>, which allows users to look up detailed game information.
             </div>
           </div>
           <div className="wynstoreContainer">
-            <img src={ wynstore } alt="wynstore" className="projectsImg" />
-            <div className="projectsOverlay">
-            <a href="https://github.com/jujopico/wynstore" className="githubLinks">Check on Github</a>
+            <div className="heroImg">
+              <img src={ wynstore } alt="wynstore" className="projectsImg" />
+              <a href="https://github.com/jujopico/wynstore" className="githubLinks">Check on Github</a>
             </div>
             <div className="projectsTitle">
               Wynstore
@@ -35,6 +36,18 @@ class Projects extends React.Component {
               An e-commerce site mostly based on <span className="highlightsInDesp">Ruby on Rails</span> and <span className="highlightsInDesp">React.js</span> for purchasing Wyncode Academy merchandises.
             </div>
           </div>
+          <div className="portfolioContainer">
+            <div className="heroImg">
+              <img src={ portfolio } alt="portfolio" className="projectsImg" />
+              <a href="https://github.com/jujopico/React-Porfolio" className="githubLinks">Check on Github</a>
+            </div>
+            <div className="projectsTitle">
+              Portfolio
+            </div>
+            <div className="projectsDescription">
+              A portfolio mostly based on <span className="highlightsInDesp">React</span> and <span className="highlightsInDesp">Javascript</span>, which allows visitors to navigate to different pages in/out of this site and download resume.
+            </div>
+          </div>  
         </div>
       </div> 
     )
