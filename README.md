@@ -1,5 +1,5 @@
 ## Website Address
 
-https://www.junsu.dev/
+https://www.junsu.dev
 
 KEEP UPDATING...
