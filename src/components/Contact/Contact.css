@@ -23,7 +23,7 @@
 .contactInfo input {
   font-family: 'Quicksand', sans-serif;
   color:rgb(74,97,123);
-  margin: 15px 0;
+  margin: 15px auto;
   line-height: 2;
   padding: 4px 8px;
   border-radius: 5px;
@@ -67,5 +67,5 @@ input:focus {
   height: 35px;
   color: #F2F3F7;
   font-family: 'Quicksand', sans-serif;
-  margin: 15px 0 50px 0;
+  margin: 15px auto 50px auto;
 }

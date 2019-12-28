@@ -21,7 +21,7 @@ class Projects extends React.Component {
               videojueGO!
             </div>
             <div className="projectsDescription">
-              A video game search engine based on RAWG games database<span className="highlightsInDesp">API</span>, <span className="highlightsInDesp">Axios</span> and <span className="highlightsInDesp">React.js</span>, which allows users to look up detailed game information.
+              A video game search engine based on RAWG games database <span className="highlightsInDesp">API</span>, <span className="highlightsInDesp">Axios</span> and <span className="highlightsInDesp">React.js</span>, which allows users to look up detailed game information.
             </div>
           </div>
           <div className="wynstoreContainer">
@@ -33,7 +33,7 @@ class Projects extends React.Component {
               Wynstore
             </div>
             <div className="projectsDescription">
-              An e-commerce site mostly based on <span className="highlightsInDesp">Ruby on Rails</span> and <span className="highlightsInDesp">React.js</span> for purchasing Wyncode Academy merchandises.
+              An e-commerce site mostly based on <span className="highlightsInDesp">Ruby</span>, <span className="highlightsInDesp">Ruby on Rails</span>, <span className="highlightsInDesp">React.js</span> and <span className="highlightsInDesp">API</span> for signed-up/guest account to purchase Wyncode Academy merchandises and admin account to manager orders.
             </div>
           </div>
           <div className="portfolioContainer">
@@ -45,7 +45,7 @@ class Projects extends React.Component {
               Portfolio
             </div>
             <div className="projectsDescription">
-              A portfolio mostly based on <span className="highlightsInDesp">React</span> and <span className="highlightsInDesp">Javascript</span>, which allows visitors to navigate to different pages in/out of this site and download resume.
+              A portfolio based on <span className="highlightsInDesp">React</span> and <span className="highlightsInDesp">Javascript</span>, which allows visitors to navigate to different pages in/out of this site and download resume.
             </div>
           </div>  
         </div>
