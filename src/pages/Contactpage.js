@@ -4,7 +4,7 @@ import Contact from '../components/Contact/Contact'
 class ContactPage extends React.Component {
   render(){
     return(
-      <div className="ContactPageContainer">
+      <div className="contactPageContainer">
         <Contact />
       </div>
     )

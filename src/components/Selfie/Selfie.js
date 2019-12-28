@@ -2,7 +2,7 @@ import React from 'react'
 import './Selfie.css'
 
 const Selfie = () => (
-  <div>
+  <div className="selfieContainer">
     <div className="selfie">
       <img src="https://wynstore-assets.herokuapp.com/images/Artboard_2.png" alt="junsu"/>
     </div>
