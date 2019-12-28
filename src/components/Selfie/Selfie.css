@@ -18,3 +18,8 @@
   margin: 10px 0 50px 0;
 }
 
+@media (min-width: 375px) {
+  .selfie img {
+    margin: 40px 100px !important;
+  }
+}
