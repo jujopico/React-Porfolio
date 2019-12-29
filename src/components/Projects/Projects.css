@@ -22,7 +22,7 @@
 .projectsListContainer {
   display: grid;
   flex-wrap: wrap;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   border-bottom: 1px solid #edf0f2;
   font-family: 'Quicksand', sans-serif;
   margin-right: 80px; 
@@ -30,7 +30,7 @@
 }
 
 .projectsImg {
-  width: 466px;
+  max-width: 466px;
   height: 100hv;
   display: flex;
 }
