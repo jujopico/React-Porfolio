@@ -1,7 +1,7 @@
-.navbar {
+.navbarContainer {
   display: flex;
-  flex-direction: column;
-  width: 400px;
+  flex-flow: column nowrap;
+  width: 28vw;
   height: 100vh;
   z-index: 999;
   position: fixed;
@@ -15,7 +15,7 @@ nav ul {
   font-family: 'Quicksand', sans-serif;
   transition: 0.3s;
   position: relative;
-  font-size:15px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
   justify-content: center;

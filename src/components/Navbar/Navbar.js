@@ -8,20 +8,26 @@ import Footer from '../Footer/Footer'
 
 const Navbar = props => {
   return(
-    <div className="navbar">
-      <Selfie />
-      <nav>
-        <NavLink className={props.location.pathname === "/" ? "active" : "inactive"} exact to="/">
-          HOME
-        </NavLink>
-        <NavLink className={props.location.pathname === "/projects" ? "active" : "inactive"} to="/projects">
-          PROJECTS
+    <div className="navbarContainer">
+      <div className="sectionSelfie">
+        <Selfie />
+      </div>
+      <div className="sectionNav">
+        <nav>
+          <NavLink className={props.location.pathname === "/" ? "active" : "inactive"} exact to="/">
+            HOME
           </NavLink>
-        <NavLink className={props.location.pathname === "/contact" ? "active" : "inactive"} to="/contact">
-          CONTACT
-        </NavLink>
-      </nav>
-      <Footer />
+          <NavLink className={props.location.pathname === "/projects" ? "active" : "inactive"} to="/projects">
+            PROJECTS
+            </NavLink>
+          <NavLink className={props.location.pathname === "/contact" ? "active" : "inactive"} to="/contact">
+            CONTACT
+          </NavLink>
+        </nav>
+      </div>
+      <div className="sectionFooter">
+        <Footer />
+      </div>
     </div>
   )
 }

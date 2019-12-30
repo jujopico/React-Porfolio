@@ -1,20 +1,22 @@
 .carouselImages {
   margin: 70px 80px 70px 0 !important;
   z-index: 1;
-  position: absolute;
+  position: relative;
   top:0;
 }
 
 .carouselInfo {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
   font-family: 'Girassol', cursive;
-  font-size: 50px;
+  font-size: 3vw;
   z-index: 2;
   position: absolute;
   top: 0;
   background-color: transparent;
-  margin: 200px 0 0 80px;
+  margin: 20vh 0 0 8vh;
   color:papayawhip;
-  display: block;
 }
 
 .junContainer, .developerContainer, .codesContainer, .toysContainer {
