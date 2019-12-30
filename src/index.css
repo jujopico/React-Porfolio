@@ -74,6 +74,8 @@ body {
   }
   .navbar {
     position: relative !important;
+    zoom: 91%;
+    margin-left: 18px;
   }
   .homeContainer{
     zoom: 90%;
