@@ -1,5 +1,5 @@
 .carouselImages {
-  margin: 70px 80px 70px 0 !important;
+  margin: 8vh 6vw 0 10vw;
   z-index: 1;
   position: relative;
   top:0;
@@ -8,14 +8,14 @@
 .carouselInfo {
   display: flex;
   flex-direction: column;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
   font-family: 'Girassol', cursive;
-  font-size: 3vw;
+  font-size: 3rem;
   z-index: 2;
   position: absolute;
   top: 0;
   background-color: transparent;
-  margin: 20vh 0 0 8vh;
+  margin: 20vh 0 0 8vw;
   color:papayawhip;
 }
 
