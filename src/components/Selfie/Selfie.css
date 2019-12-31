@@ -8,6 +8,7 @@
   height: 15vw;
   border-radius: 100%;
   position: relative;
+  margin: 15%;
 }
 
 .name {
@@ -20,11 +21,5 @@
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   color: #7992AE;
-  margin: 0.3rem 0 1rem 0;
-}
-
-@media (min-width: 375px) {
-  .selfie img {
-    margin: 15% 15% !important;
-  }
+  margin: 0.5rem 0 1rem 0;
 }
