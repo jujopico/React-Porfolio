@@ -1,6 +1,7 @@
 .navbarContainer {
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
   width: 28vw;
   height: 100vh;
   z-index: 999;
@@ -58,7 +59,7 @@ nav a.inactive:hover:before {
 nav a.active {
   border-bottom: 1px solid #2c98f0;
   color:#2c98f0;
-  width: 28%;
+  width: 7vw;
   margin-left: auto;
   margin-right: auto;
 }

@@ -3,14 +3,14 @@
 }
 
 .projectsContainer {
-  display: grid;
-  grid-template-columns: 0 auto 0px;
-  margin: 70px 0 70px 0;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 7vw 0;
   padding: 0;
 }
 
 .heroImg {
-  margin-top: 50px;
+  margin-top: 5vh;
   position: relative;
 }
 
@@ -21,7 +21,7 @@
 
 .projectsListContainer {
   display: grid;
-  flex-wrap: wrap;
+  flex-wrap: column wrap;
   grid-template-columns: repeat(2, 1fr);
   border-bottom: 1px solid #edf0f2;
   font-family: 'Quicksand', sans-serif;
@@ -30,9 +30,10 @@
 }
 
 .projectsImg {
-  max-width: 466px;
-  height: 100hv;
+  max-width: 46vw;
+  height: 40vh;
   display: flex;
+  flex-flow: column wrap;
 }
 
 .videojuegoContainer img {
