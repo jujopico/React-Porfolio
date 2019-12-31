@@ -1,42 +1,33 @@
 .navbarContainer {
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
   align-items: center;
-  width: 28vw;
+  width: 25vw;
   height: 100vh;
   z-index: 999;
   position: fixed;
-  background-color: #F2F3F7;
 }
 
 nav ul {
   list-style-type: none;
   text-decoration: none;
   color: #7992AE;
-  font-family: 'Quicksand', sans-serif;
-  transition: 0.3s;
   position: relative;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  justify-content: center;
-  margin: 15px;
-  padding: 0;
-  display: block;
 }
 
 nav a {
+  display: block;
   text-decoration: none;
   color:rgb(74,97,123);
   font-family: 'Quicksand', sans-serif;
   transition: 0.3s;
   position: relative;
-  font-size:15px;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
-  margin: 15px;
+  margin: 0.6rem;
 }
 
 nav a.inactive:before {
@@ -59,7 +50,7 @@ nav a.inactive:hover:before {
 nav a.active {
   border-bottom: 1px solid #2c98f0;
   color:#2c98f0;
-  width: 7vw;
+  width: 8vw;
   margin-left: auto;
   margin-right: auto;
 }
