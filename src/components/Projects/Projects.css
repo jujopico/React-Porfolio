@@ -1,7 +1,7 @@
 .projectsContainer {
   display: flex;
   flex-flow: column wrap;
-  margin: 5vh 7vw;
+  margin: 5vh 8vw;
 }
 
 .projectsTitle {

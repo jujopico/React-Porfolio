@@ -1,22 +1,23 @@
 .contactContainer {
   display: flex;
   flex-direction: column;
+  margin: 5vh 8vw;
 }
 
 .contactPageTtitle {
   font-family: 'Girassol', cursive;
   font-size: 35px;
-  margin: 70px 0;
 }
 
 .contactTitle {
   color:rgb(74,97,123);
   font-family: 'Quicksand', sans-serif;
   font-size: 23px;
+  margin-top: 8vh;
 }
 
 .contactInfo {
-  margin-top: 15px;
+  margin-top: 8vh;
 }
 
 .contactInfo input {
