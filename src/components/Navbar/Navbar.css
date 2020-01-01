@@ -3,10 +3,10 @@
   display: grid;
   align-content: center;
   justify-content: center;
-  width: 25vw;
-  height: 100vh;
+  max-width: 25vw;
+  height: 100%;
   z-index: 999;
-  margin: 2vh 0;
+  margin: 2vh 0 2vh 4vw;
 }
 
 nav ul {
@@ -23,7 +23,6 @@ nav a {
   color:rgb(74,97,123);
   font-family: 'Quicksand', sans-serif;
   transition: 0.3s;
-
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1px;

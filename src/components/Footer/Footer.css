@@ -3,8 +3,10 @@ footer {
   text-align: center;
   font-size: 1rem;
   color: #79797B;
-  background-color: #F2F3F7;
   margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .socialMedia img {
