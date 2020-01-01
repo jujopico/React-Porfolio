@@ -1,86 +1,101 @@
-* {
-  box-sizing: border-box
-}
-
 .projectsContainer {
   display: flex;
   flex-flow: column wrap;
-  margin: 7vw 0;
-  padding: 0;
-}
-
-.heroImg {
-  margin-top: 5vh;
-  position: relative;
-}
-
-.projectsPageTitle {
-  font-family: 'Girassol', cursive;
-  font-size: 35px;
-}
-
-.projectsListContainer {
-  display: grid;
-  flex-wrap: column wrap;
-  grid-template-columns: repeat(2, 1fr);
-  border-bottom: 1px solid #edf0f2;
-  font-family: 'Quicksand', sans-serif;
-  margin-right: 80px; 
-  margin-top: 70px;
-}
-
-.projectsImg {
-  max-width: 46vw;
-  height: 40vh;
-  display: flex;
-  flex-flow: column wrap;
-}
-
-.videojuegoContainer img {
-  margin-right: 20px;
-}
-
-.githubLinks {
-  text-decoration: none;
-  position: absolute;
-  bottom: 0;
-  background:rgba(74,97,123,0.8);
-  width: 466px;
-  transition: .5s ease;
-  color: #F2F3F7;
-  font-size: 20px;
-  padding: 5px;
-  text-align: center;
-  opacity:0;
-}
-
-.videojuegoContainer:hover .githubLinks {
-  opacity: 1;
-}
-
-.wynstoreContainer:hover .githubLinks {
-  opacity: 1;
-}
-
-.portfolioContainer:hover .githubLinks {
-  opacity: 1;
+  margin: 5vh 7vw;
 }
 
 .projectsTitle {
-  margin-top: 15px;
-  font-size: 30px;
+  margin-top: 2vh;
+  font-size: 2rem;
   font-weight: 600;
   color:rgb(45,59,75)
 }
 
-.projectsDescription {
-  width: 455px;
-  margin-top: 15px;
-  color: #7992AE;
-  font-size: 18px;
-}
-
 .highlightsInDesp {
   font-weight: 600;
-  color:rgb(74,97,123);
+  color:#2c98f0;
+}
+
+.projectsPageTitle {
+  font-family: 'Girassol', cursive;
+  font-size: 2rem;
+}
+
+.projectsListContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  border-bottom: 1px solid #edf0f2;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 5vh;
+}
+
+@media screen and ( max-width: 700px) {
+  .projectsListContainer {
+    display: block;
+  }
+}
+
+.projectsImg {
+  max-width: 35vw;
+  max-height: 33vh;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 5vh;
+  position: relative;
+  display: block;
+}
+
+@media screen and ( max-width: 700px ) {
+  .projectsImg {
+    max-width: 65vw;
+    max-height: 50vh;
+  }
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: #7992AE;
+  font-weight: 600;
+}
+
+.links ul a:hover {
+  color:#2c98f0;
+}
+
+.heroImg {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height:100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(45,59,75, 0.8);
+}
+
+.heroImg:hover .overlay {
+  opacity: 1;
+}
+
+.projectsDescription {
+  font-size: 1.3vw;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-20%, -20%);
+  text-align: center;
+  color: papayawhip;
 }
