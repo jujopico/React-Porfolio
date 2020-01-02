@@ -58,5 +58,11 @@ body {
     line-height: 1vh;
     margin: 1vh 0;
   }
+  .contactPageContainer {
+    margin: 0 !important;
+  }
+  .contactPageTitle {
+    font-size: 10vw !important;
+  }
 }
 

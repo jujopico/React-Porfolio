@@ -16,7 +16,7 @@ const Footer = () => (
         </a>
       </div>
       <div className="resume">
-        <a target="blank" download href="../../assets/pdf/Resume.pdf">
+        <a target="_blank" download href="../../assets/pdf/Resume.pdf">
           <button>Download Resume</button>
         </a>
       </div>
