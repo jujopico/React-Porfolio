@@ -1,11 +1,11 @@
 .carouselImages {
   display: flex;
   position: fixed;
-  margin: auto 4vw auto 6vw;
+  margin: 0 2vw 0 4vw;
   z-index: 1;
   top: 5%;
   bottom: 5%;
-  max-width: 75vw;
+  max-width: 70vw;
   max-height: 100vh;
 }
 
@@ -14,29 +14,14 @@
   flex-direction: column;
   background-color: transparent;
   font-family: 'Girassol', cursive;
-  font-size: 3rem;
+  font-size: 3.5vw;
   z-index: 2;
   position: absolute;
   margin: auto 4vw auto 6vw;
   margin-left: 10vw;
-  top: 20%;
+  top: 30%;
   bottom: 10%;
   color:papayawhip;
-}
-
-@media screen and ( max-width: 700px) {
-  .carouselInfo {
-    zoom: 70%;
-    top: 25%;
-  }
-}
-
-@media screen and ( max-width: 500px) {
-  .carouselInfo {
-    zoom: 50%;
-    top: 30%;
-    margin-left: 15vw;
-  }
 }
 
 .junContainer, .developerContainer, .codesContainer, .toysContainer {

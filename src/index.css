@@ -13,11 +13,50 @@ body {
   margin-left: 20vw;
 }
 
+@media screen and ( max-width: 1000px ) {
+  .carouselInfo {
+    top: 45% !important;
+  }
+  .homePageContainer {
+    margin-left: 25vw;
+  }
+}
+
 @media screen and ( max-width: 415px) {
   .homeContainer {
     display: block;
   }
-  .navbar {
+  .homePageContainer {
+    display: none;
+  }
+  .navbarContainer {
+    max-width: 100vw !important;
     width: 100%;
+    zoom: 130%;
+    margin: 5vh 0 !important;
+    position: relative !important;
+  }
+  .projectsPageContainer {
+    margin: 0 !important;
+  }
+  .projectsListContainer {
+    margin: 0 !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    zoom: 240%;
+  }
+  .projectsImg {
+    margin-top: 2vw !important;
+  }
+  .projectsTitle {
+    margin-top: 1vw !important;
+  }
+  .projectsPageTitle {
+    font-size: 10vw !important;
+  }
+  .links ul {
+    padding: 0;
+    line-height: 1vh;
+    margin: 1vh 0;
   }
 }
+

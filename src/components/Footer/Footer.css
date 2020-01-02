@@ -5,7 +5,7 @@ footer {
   color: #79797B;
   margin-top: 5vh;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   align-items: center;
 }
 
