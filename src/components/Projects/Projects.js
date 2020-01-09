@@ -55,7 +55,7 @@ class Projects extends React.Component {
               <img src={ portfolio } alt="portfolio" className="projectsImg" />
               <div className="overlay">
                 <div className="projectsDescription">
-                  A portfolio based on <span className="highlightsInDesp">React</span>, <span className="highlightsInDesp">Javascript</span>, <span className="highlightsInDesp">HTML</span> and <span className="highlightsInDesp">CSS</span>, which allows visitors to navigate to different pages in/out of this site and download resume.
+                  A portfolio based on <span className="highlightsInDesp">React</span>, <span className="highlightsInDesp">Javascript</span>, <span className="highlightsInDesp">HTML</span> and <span className="highlightsInDesp">CSS</span>, which allows visitors to navigate to different pages in/out of this site, send emails to assigned address and download resume.
                 </div>
               </div>
             </div>
