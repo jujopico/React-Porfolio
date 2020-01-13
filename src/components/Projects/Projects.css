@@ -32,7 +32,6 @@
 
 .projectsImg {
   width: 100%;
-  display: flex;
   flex-flow: column wrap;
   margin-top: 5vh;
   position: relative;

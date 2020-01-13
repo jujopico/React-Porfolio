@@ -2,6 +2,7 @@ import React from 'react'
 import videojuego from '../../assets/images/videojuego.png'
 import wynstore from '../../assets/images/wynstore.png'
 import portfolio from '../../assets/images/portfolio.png'
+import nekkestu from '../../assets/images/nekketsu.png'
 import './Projects.css'
 
 class Projects extends React.Component {
@@ -12,6 +13,7 @@ class Projects extends React.Component {
           PROJECTS
         </div>
         <div className="projectsListContainer">
+
           <div className="videojuegoContainer">
             <div className="heroImg">
               <img src={ videojuego } alt="videojueGO!" className="projectsImg" />
@@ -31,6 +33,7 @@ class Projects extends React.Component {
               </ul>
             </div>
           </div>
+
           <div className="wynstoreContainer">
             <div className="heroImg">
               <img src={ wynstore } alt="wynstore" className="projectsImg" />
@@ -50,6 +53,7 @@ class Projects extends React.Component {
               </ul>
             </div>
           </div>
+
           <div className="portfolioContainer">
             <div className="heroImg">
               <img src={ portfolio } alt="portfolio" className="projectsImg" />
@@ -66,6 +70,26 @@ class Projects extends React.Component {
               <ul>
                 <li><a href="https://github.com/jujopico/React-Porfolio">➨ Check on Github</a></li>
                 <li><a href="https://www.junsu.dev/">➨ Check on Webstie</a></li>
+              </ul>
+            </div>
+            </div>
+
+            <div className="NekketsuContainer">
+            <div className="heroImg">
+              <img src={ nekkestu } alt="nekkestu" className="projectsImg" />
+              <div className="overlay">
+                <div className="projectsDescription">
+                A website built by <span className="highlightsInDesp">HTML</span>, <span className="highlightsInDesp">CSS</span>, <span className="highlightsInDesp">Boostrap</span>, <span className="highlightsInDesp">FontAwesome</span> and <span className="highlightsInDesp">Lightbox2</span>, is mostly a front-end practice.
+                </div>
+              </div>
+            </div>
+            <div className="projectsTitle">
+              Japanese Media Collection
+            </div>
+            <div className="links">
+              <ul>
+                <li><a href="https://github.com/jujopico/Japanese-Media-Collection">➨ Check on Github</a></li>
+                <li><a href="https://japanese-media-collection.herokuapp.com/">➨ Check on Webstie</a></li>
               </ul>
             </div>
           </div>  
