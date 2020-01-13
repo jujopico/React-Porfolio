@@ -28,8 +28,8 @@ class Projects extends React.Component {
             </div>
             <div className="links">
               <ul>
-                <li><a href="https://github.com/jujopico/videojueGO">➨ Check on Github</a></li>
-                <li><a href="https://videojuego.herokuapp.com/">➨ Check on Webstie</a></li>
+                <li><a href="https://github.com/jujopico/videojueGO" target="blank">➨ Check on Github</a></li>
+                <li><a href="https://videojuego.herokuapp.com/" target="blank">➨ Check on Webstie</a></li>
               </ul>
             </div>
           </div>
@@ -48,8 +48,8 @@ class Projects extends React.Component {
             </div>
             <div className="links">
               <ul>
-                <li><a href="https://github.com/jujopico/wynstore">➨ Check on Github</a></li>
-                <li><a href="https://wynstore.herokuapp.com/">➨ Check on Webstie</a></li>
+                <li><a href="https://github.com/jujopico/wynstore" target="blank">➨ Check on Github</a></li>
+                <li><a href="https://wynstore.herokuapp.com/" target="blank">➨ Check on Webstie</a></li>
               </ul>
             </div>
           </div>
@@ -68,8 +68,8 @@ class Projects extends React.Component {
             </div>
             <div className="links">
               <ul>
-                <li><a href="https://github.com/jujopico/React-Porfolio">➨ Check on Github</a></li>
-                <li><a href="https://www.junsu.dev/">➨ Check on Webstie</a></li>
+                <li><a href="https://github.com/jujopico/React-Porfolio" target="blank">➨ Check on Github</a></li>
+                <li><a href="https://www.junsu.dev/" target="blank">➨ Check on Webstie</a></li>
               </ul>
             </div>
             </div>
@@ -88,8 +88,8 @@ class Projects extends React.Component {
             </div>
             <div className="links">
               <ul>
-                <li><a href="https://github.com/jujopico/Japanese-Media-Collection">➨ Check on Github</a></li>
-                <li><a href="https://japanese-media-collection.herokuapp.com/">➨ Check on Webstie</a></li>
+                <li><a href="https://github.com/jujopico/Japanese-Media-Collection" target="blank">➨ Check on Github</a></li>
+                <li><a href="https://japanese-media-collection.herokuapp.com/" target="blank">➨ Check on Webstie</a></li>
               </ul>
             </div>
           </div>  
